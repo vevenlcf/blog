@@ -1,34 +1,26 @@
-##[点我查看中文说明](https://github.com/dubuyuye/blog/blob/gh-pages/README_zh_CN.md)
+博客地址
+https://vevenlcf.github.io/blog/
 
-# Blog Address
+必改内容
+1.swiftype
+此服务提供站内搜索功能
 
-<https://vevenlcf.github.io/blog/>
+服务地址：https://swiftype.com/
 
+设置方法可参考 http://opiece.me/2015/04/16/site-search-by-swiftype/
 
-# Must Modify
+设置完毕后，您需要修改 _config.yml 中 swiftype.searchId。
 
-## 1.swiftype
+在自己的引擎中，进入 Setup and integration -> Install Search, 你将找到 swiftype.searchId。
 
-This service provides the on-site search function.
-
-Service address： <https://swiftype.com/>.
-
-After the setup is complete， you need to modify the `swiftype.searchId` in `_config.yml`.
-
-In your swiftype engine, go to `Setup and integration` -> `Install Search`, you could find the `swiftype.searchId`.
-
-```html
 <script type="text/javascript">
 ...
 ...
   _st('install','swiftype.searchId','2.0.0');
 </script>
-```
+2.gitment
+此服务提供评论功能
 
-## 2.gitment
+服务地址：https://github.com/imsun/gitment
 
-This service provides the comment function.
-
-Service address： <https://github.com/imsun/gitment>.
-
-After the setup is complete， you need to modify the `gitment`  in `_config.yml`.
+设置完毕后, 需要修改 _config.yml 中的 gitment。
