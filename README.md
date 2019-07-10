@@ -3,7 +3,7 @@ https://vevenlcf.github.io/blog/
 
 ### 必改内容
 
-**1. swiftype**
+**1. swiftype** 
 此服务提供站内搜索功能
 
 服务地址：https://swiftype.com/
@@ -14,16 +14,18 @@ https://vevenlcf.github.io/blog/
 
 在自己的引擎中，进入 Setup and integration -> Install Search, 你将找到 swiftype.searchId。
 
-<script type="text/javascript">
-...
-...
-  _st('install','swiftype.searchId','2.0.0');
-</script>
+  <script type="text/javascript">
+  ...
+  ...
+    _st('install','swiftype.searchId','2.0.0');
+  </script>
 
 **2. gitment**
 
 此服务提供评论功能
+
 服务地址：https://github.com/imsun/gitment
+
 设置完毕后, 需要修改 _config.yml 中的 gitment。
 
 可以参考： [Gitment：使用 GitHub Issues 搭建评论系统](https://imsun.net/posts/gitment-introduction/)
