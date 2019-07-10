@@ -34,8 +34,8 @@ swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
     repo: blog
-    client_id: 87a606904ed12b831d16
-    client_secret: ecc7b170e95977564eab53e95fddae191ec165b0
+    client_id: 3fde5d4d0ec8e651112d
+    client_secret: 9f147febb09984a11016683b8bfbee887d826df5
 
 url: "https://vevenlcf.github.io/blog"
 imgrepo: "https://vevenlcf.github.io/blog/static/img"
