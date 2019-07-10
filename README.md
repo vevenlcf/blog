@@ -3,7 +3,7 @@ https://vevenlcf.github.io/blog/
 
 ### 必改内容
 
-** 1. swiftype **
+**1. swiftype**
 此服务提供站内搜索功能
 
 服务地址：https://swiftype.com/
