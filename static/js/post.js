@@ -31,7 +31,7 @@ function share(){
 function gitment() {
     var gitment = new Gitment({
         //id: window.location.pathname,
-        id: '<%= page.date %>'
+        id: '<%= page.date %>',
         owner: '{{site.github.username}}',
         repo: '{{site.gitment.repo}}',
         oauth: {
