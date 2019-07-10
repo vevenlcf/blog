@@ -1,7 +1,8 @@
-# 博客地址
+### 博客地址
 https://vevenlcf.github.io/blog/
 
-# 必改内容
+### 必改内容
+
 ** 1. swiftype **
 此服务提供站内搜索功能
 
@@ -20,6 +21,7 @@ https://vevenlcf.github.io/blog/
 </script>
 
 **2. gitment**
+
 此服务提供评论功能
 服务地址：https://github.com/imsun/gitment
 设置完毕后, 需要修改 _config.yml 中的 gitment。
