@@ -25,4 +25,5 @@ https://vevenlcf.github.io/blog/
 此服务提供评论功能
 服务地址：https://github.com/imsun/gitment
 设置完毕后, 需要修改 _config.yml 中的 gitment。
+
 可以参考： [Gitment：使用 GitHub Issues 搭建评论系统](https://imsun.net/posts/gitment-introduction/)
