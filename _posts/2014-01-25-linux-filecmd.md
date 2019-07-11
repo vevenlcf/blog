@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux目录与文件
+title: Linux指令说明
 tags: Linux 命令
 categories: Linux
 ---
