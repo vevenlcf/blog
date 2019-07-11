@@ -3,7 +3,7 @@ layout: post
 title: make
 tags: make Linux script
 categories: Linux
-published: false
+published: true
 ---
 
 
