@@ -1,7 +1,7 @@
 ---
-title: windows dbg权限
-tags: windows gogo
-categories: algorithm
+title: 工业安全工具
+tags: 工业 ICS 
+categories: ICS 
 ---
 
 * TOC
