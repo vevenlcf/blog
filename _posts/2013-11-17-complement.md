@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 进制说明
-tags: Computer 
-categories: common
+tags: 二进制 十进制 
+categories: Computer 
 ---
 
 抛开二进制不谈，我们先来看看10进制
