@@ -2,7 +2,7 @@
 layout: post
 title: Javascript 总结
 tags: Javascript script
-categories: java
+categories: Java
 ---
 
 超级长图，小心流量。
