@@ -1,16 +1,18 @@
 ---
-title: windows dbg权限
-tags: 
-categories: Security Shell
+title: Linux主机信息收集脚本
+tags:  shell脚本 信息收集
+categories: Security Shell Linux
 ---
 
 * TOC
 {:toc}
 
-> https://github.com/al0ne/LinuxCheck
+> 原文摘自： https://github.com/al0ne/LinuxCheck
 
-###
+### 简介
+
 一个linux信息搜集小脚本 主要用于应急响应，在Debian或Centos下都可使用
+
 ### 功能
 
 * CPU TOP10 、内存 TOP10
@@ -46,9 +48,11 @@ categories: Security Shell
 * rkhunter 扫描
 
 ### Usage
+```c
 apt-get install silversearcher-ag  
 bash -c "$(curl -sSL https://raw.githubusercontent.com/al0ne/LinuxCheck/master/LinuxCheck.sh)"  
 文件会保存成ipaddr_hostname_username_timestamp.log 这种格式
+```
 
 ### show me the code
 
