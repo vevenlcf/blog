@@ -1,21 +1,16 @@
 ---
-title:  python下实现http-server
-tags: http-server
-categories: httpServer
+title:  python实现http-server
+tags: python
+categories: python
 ---
-
 
 * TOC
 {:toc}
 
+
 ## 背景介绍
   
 项目需要编写一个中间件，这个中间件就基于python3 的简易http-server进行改造。
-《》《》《》《》《》《》《》《》《》《》《》《》《》《》《
-《》《》《》《》《》《》《》《》《》《》《》《》《》《》《
-《》《》《》《》《》《》《》《》《》《》《》《》《》《《《《
-不知道为什么显示那么多！！！
-不知道为什么显示那么多！！！
 直接运行的话可以 ```python3 -m http.server```
 
 ## demo演示
