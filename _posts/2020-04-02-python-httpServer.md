@@ -7,15 +7,15 @@ categories: httpServer
 * TOC
 {:toc}
 
-### 背景介绍
+## 背景介绍
   
 项目需要编写一个中间件，这个中间件就基于python3 的简易http-server进行改造。
 
 直接运行的话可以 ```python3 -m http.server```
 
-### demo演示
+## demo演示
 
-#### http-server 基于flask demo
+### http-server 基于flask demo
 
 ```python
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 ```
 
-#### http-server 基于http.server demo
+### http-server 基于http.server demo
 
 这边用到了一个装饰器，用于判断函数运行超时，返回信息。
 ```python
@@ -216,7 +216,7 @@ if __name__ == '__main__':
 ```
 
 
-### client
+## client
 
 ```python
 	
