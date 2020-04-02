@@ -1,7 +1,7 @@
 ---
 title:  python下实现http-server
 tags: http-server
-categories: httpServer 网络
+categories: httpServer
 ---
 
 * TOC
