@@ -1,7 +1,7 @@
 ---
 title: 利用Python实现httpServer
-tags:python
-categories:python
+tags: python
+categories: python
 ---
 
 * TOC
