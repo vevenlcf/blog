@@ -1,8 +1,9 @@
 ---
 title: 再谈cuckoo与suricata
-tags: suricata cuckoo
-categories: 沙箱 cuckoo
+tags: suricata
+categories: 沙箱
 ---
+
 
 * TOC
 {:toc}
