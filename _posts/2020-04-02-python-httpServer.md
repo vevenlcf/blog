@@ -12,7 +12,6 @@ categories:python
 项目需要编写一个中间件，这个中间件就基于python3 的简易http-server进行改造。
 直接运行的话可以 ```python3 -m http.server```
 
----
 ## demo演示
 
 ### http-server 基于flask demo
