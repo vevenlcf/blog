@@ -7,7 +7,6 @@ categories:python
 * TOC
 {:toc}
 
-
 ## 背景介绍
   
 项目需要编写一个中间件，这个中间件就基于python3 的简易http-server进行改造。
