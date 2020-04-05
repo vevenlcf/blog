@@ -1,6 +1,5 @@
 ---
-layout: post
-title: WebService
+title: WebService2
 tags: WebService Java
 categories: web
 ---
