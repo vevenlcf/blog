@@ -1,14 +1,15 @@
 ---
-title: 利用Python实现httpServer
-tags: python
-categories: suricata
+layout: post
+title: WebService
+tags: WebService Java
+categories: web
 ---
-
 
 * TOC
 {:toc}
----------------
-## 背景介绍
+
+
+*** 背景介绍 ***
   
 项目需要编写一个中间件，对面提供Http接口，首先肯定想到的就是对 基于python3的简易http-server进行改造。
 但是项目实际过程中，中间件的调用可能来自多方，多个用户都会对这个接口进行异步的调用，所以该接口就需要对异步的调用进行及时的处理。
