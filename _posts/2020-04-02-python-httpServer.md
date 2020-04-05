@@ -1,21 +1,21 @@
 ---
-title: WebService2
-tags: WebService Java
-categories: web
+title: Python3实现Http中间件
+tags: python http
+categories: httpServer
 ---
 
 * TOC
 {:toc}
 
 
-*** 背景介绍 ***
+# **背景介绍**
   
 项目需要编写一个中间件，对面提供Http接口，首先肯定想到的就是对 基于python3的简易http-server进行改造。
 但是项目实际过程中，中间件的调用可能来自多方，多个用户都会对这个接口进行异步的调用，所以该接口就需要对异步的调用进行及时的处理。
 
 ps： 直接运行的话可以 ```python3 -m http.server```
 
-## 框架选择
+# **框架选择**
 
 首先可以想到的是http-server框架与flask框架。
 - 首先联想到cuckoo-agent模块，[agent.py](https://github.com/cuckoosandbox/cuckoo/blob/master/cuckoo/data/agent/agent.py)。 他是基于python2的SimpleHTTPServer实现的。对其并发性能没有深入研究，不过该agent主要部署在虚拟机中，同时也只会处理一个任务。
@@ -27,7 +27,8 @@ ps： 直接运行的话可以 ```python3 -m http.server```
 因此，问题就变为了，如何处理http-server的并发问题：
 后来也找到了解决方式 就是使用ThreadingMixIn，参考[python3 HttpServer 实现多线程](https://blog.csdn.net/legend_x/article/details/14127675?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2)
 
-### http-server 基于flask demo
+# **代码demo**
+## http-server 基于flask demo
 
 ```python
 
@@ -70,7 +71,7 @@ if __name__ == "__main__":
 
 ```
 
-### http-server 基于http.server demo
+## http-server 基于http.server demo
 
 这边用到了一个装饰器，用于判断函数运行超时，返回信息。
 ```python
@@ -226,7 +227,7 @@ if __name__ == '__main__':
     while True:
         server.handle_request()
 ```
-### http-server 基于ThreadingMixIn实现多线程处理：
+## http-server 基于ThreadingMixIn实现多线程处理：
 ```python
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
